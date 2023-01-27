@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #57E2E5;
+    font-family: "Lucida Handwriting";
+    font-size: 30px;
+}
+
+.main container{
+    width: 95%;
+    margin: auto;
+}
+
+.container1{
+    margin-left: 5%;
+}
+
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.container3{
+    display: none;
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+
+textarea{
+    box-shadow: 10px 10px 24px 0px #2C4251;
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+}
+
+svg{
+    color: #2C4251;
+    width: 10%;
+    height: 10%;
+}
+
+#check-icon{
+    position: absolute;
+    right: 17%;
+    top: 4%;
+}
+
+#x-icon{
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}
